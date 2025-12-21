@@ -1,0 +1,31 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  banner: ads_logo.png
+  title: "Thermoluminescence Dating: A Guide to Good Practice"
+  keywords:
+    - archaeology
+    - thermoluminescence
+  authors:
+    - name: Nikolaos A. Kazakis
+      orcid: https://orcid.org/0000-0001-7804-2540
+    - name: Nestor C. Tsirliganis
+      orcid: https://orcid.org/0000-0002-1731-2006
+  license: CC-BY-4.0
+  open_access: true
+  doi: https://doi.org/10.5284/wx7g-bv79
+  github: https://github.com/uoy-ads/ads-guides-cs_thermo
+  toc:
+    - file: index.md
+  exports:
+    - format: pdf
+      article: 
+      output:
+site:
+  template: book-theme
+  options:
+    favicon: images/g2gp_signpost.png
+    logo: images/g2gp_signpost.png
+    logo_text: Guides to Good Practice
+  parts:
+    footer: footer.md
